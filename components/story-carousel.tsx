@@ -152,3 +152,5 @@ const StorySubtitle = ({
     </h2>
   );
 };
+
+export default StoryCarousel;

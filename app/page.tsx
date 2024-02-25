@@ -1,4 +1,8 @@
-import { StoryCarousel } from "@/components/story-carousel";
+import dynamic from "next/dynamic";
+
+const StoryCarousel = dynamic(() => import("@/components/story-carousel"), {
+  ssr: false,
+});
 
 export default function Home() {
   return (
